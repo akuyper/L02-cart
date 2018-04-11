@@ -10,7 +10,7 @@ The main goal of this lab is to continue practicing the application of tree-base
 
 We have split the `wildfires.csv` dataset into a training dataset (`wildfires_train.csv`) and test dataset (`wildfires_test.csv`). They are contained in the **data** subdirectory along with a codebook.  
 
-## Exercise
+## Exercises
 
 Please complete the following exercises. The document should be neatly formatted. 
 
