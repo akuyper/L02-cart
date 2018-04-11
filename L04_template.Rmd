@@ -1,18 +1,29 @@
-# CART Lab II (L04)
+---
+title: "CART Lab II (L04)"
+author: "Data Science III (STAT 301-3)"
+date: "April 1th, 2018"
+output: html_document
+---
 
-Download the repository as a zip folder and begin an R project for this lab. The zip folder will contain instructions (repeated below) and a template to get an Rmd file started.
-
-## Overview
+# Overview
 
 The main goal of this lab is to continue practicing the application of tree-based methods (i.e., classification and regression trees).
 
-## Datasets
+# Datasets 
 
 We have split the `wildfires.csv` dataset into a training dataset (`wildfires_train.csv`) and test dataset (`wildfires_test.csv`). They are contained in the **data** subdirectory along with a codebook.  
 
-## Exercise
+# Exercises
 
-Please complete the following exercises. The document should be neatly formatted. 
+Please complete the following exercises. Be sure your solutions are clearly indicated and that the document is neatly formatted.
+
+#### Load Packages
+
+```{r, message = FALSE}
+# Loading package(s)
+
+```
+<br>
 
 #### Exercise 1 
 The total area burned by a wildfire is of great concern to government planners. This is captured by the variable `burned` in the `wildfires` dataset. Applying boosting, bagging, and random forests methods to build candidate regression trees to predict the total area burned by a wildfire (`burned`). Include a multiple linear model that uses all appropriate predictors for comparison. Compare the estimated test errors for each model to determine which is best. **Exclude `wlf` as a predictor.** 
