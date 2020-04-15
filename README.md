@@ -23,6 +23,7 @@ The total area burned by a wildfire is of great concern to government planners. 
 * linear regression
 * ridge regression 
 
+Be sure to properly tune the ridge and linear regression models. 
 Compare the estimated test errors for each model to determine which is best. 
 
 <br><br>
@@ -37,4 +38,5 @@ In this exercise, you will train models to predict `wlf` using other variables i
 * logistic regression
 * ridge logistic regression
      
+Be sure to properly tune the ridge and logistic regression models. 
 Compare the estimated test errors for each model to determine which is best. 
